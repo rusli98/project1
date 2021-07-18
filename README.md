@@ -20,8 +20,7 @@ def send_welcome(message):
 
 	# Logger
 	print('nama : '+message.chat.first_name)
-	#print('Username : '+ message.chat.username)
-	#print('Text : '+ message.text)
+	
 
 def process_name_step(message):
     try:
